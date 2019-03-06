@@ -18,6 +18,6 @@ spec:
     spec:
       containers:
         - name: front-end-pod
-          image: kubernetes/guestbook:v2
-        ports:
-            - containerPort: 80
+          image:  kubernetes/guestbook:v2
+          ports:
+          - containerPort: 3000 
