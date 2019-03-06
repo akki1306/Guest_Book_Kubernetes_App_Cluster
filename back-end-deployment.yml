@@ -17,7 +17,7 @@ spec:
         app: guest-book-app
     spec:
       containers:
-        - name: redis-master 
+        - name: redis 
           image: redis
           ports:
           - containerPort: 6379
